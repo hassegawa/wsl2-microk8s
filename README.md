@@ -36,11 +36,8 @@ sudo microk8s enable helm3 ingress dns
 	
 	
 ## exemplo
-  (deploy nginx)[https://kubernetes.io/docs/tasks/run-application/run-stateless-application-deployment/]	
-  
-  
-   kubectl apply -f ingress.yml
-   kubectl nginx.yml
+   * kubectl apply -f ingress.yml
+   * kubectl nginx.yml
 
 ---
 ## Dashboard
@@ -51,7 +48,7 @@ Checking if Dashboard is running.
 Waiting for Dashboard to come up.
 Dashboard will be available at https://127.0.0.1:10443
 Use the following token to login:
-eyJhbGciOiJSUzI1NiIsImtpZCI6InFTOD
+eyJhbGciOiJSUzI1NiIsImtpZCI6InFTOD...
 ```
     * troque o 127.0.0.1:10443 por IP_DO_WSL:10443
   
