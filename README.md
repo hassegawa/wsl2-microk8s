@@ -41,5 +41,18 @@ sudo microk8s enable helm3 ingress dns
   
    kubectl apply -f ingress.yml
    kubectl nginx.yml
+
+---
+## Dashboard
+  * microk8s enable dashboard
+  * microk8s dashboard-proxy
+```
+Checking if Dashboard is running.
+Waiting for Dashboard to come up.
+Dashboard will be available at https://127.0.0.1:10443
+Use the following token to login:
+eyJhbGciOiJSUzI1NiIsImtpZCI6InFTOD
+```
+    * troque o 127.0.0.1:10443 por IP_DO_WSL:10443
   
   
