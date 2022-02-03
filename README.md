@@ -1,8 +1,6 @@
 # WSL + microk8s + ingress-controller + metallb
 
 
-## (intalando o docker)[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt]
-
 sudo apt update
   
 sudo snap install microk8s --classic
