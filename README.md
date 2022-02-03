@@ -36,13 +36,16 @@ sudo microk8s enable helm3 ingress dns
 	
 	
 ## exemplo
+   ### ingress controller
    * kubectl apply -f ingress.yml
-   * kubectl nginx.yml
+
+   ### aplicação exemplo: deploy + service + ingress 
+   * kubectl apply -f nginx.yml
 
 ---
 ## Dashboard
-  * microk8s enable dashboard
-  * microk8s dashboard-proxy
+  * sudo microk8s enable dashboard
+  * sudo microk8s dashboard-proxy
 ```
 Checking if Dashboard is running.
 Waiting for Dashboard to come up.
@@ -52,4 +55,7 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6InFTOD...
 ```
     * troque o 127.0.0.1:10443 por IP_DO_WSL:10443
   
-  
+## portainer - UI gerenciado do cluster  - porta 30777 
+  * sudo microk8s enable portainer
+
+  *  http://IP_DO_WSL:30777
